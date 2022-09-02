@@ -1,0 +1,11 @@
+# Ignore R files
+.hugo_build.lock
+.RData
+.Rhistory
+.Rproj.user
+*.Rproj
+Thumbs.db
+index.html
+.DS_Store
+public/*
+!public/.gitkeep

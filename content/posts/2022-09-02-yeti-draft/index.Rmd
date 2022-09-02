@@ -1,0 +1,15 @@
+---
+title: Yeti Draft
+author: ZeroDayOwl
+date: '2022-09-02'
+slug: yeti-draft
+categories:
+  - Yeti
+tags:
+  - Yeti
+draft: yes
+toc: no
+images: ~
+---
+
+**Yeti is Draft :P**

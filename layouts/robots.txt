@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zerodayowl.github.io/sitemap.xml

@@ -1,0 +1,53 @@
+name: GitHub Pages CI
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+    schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-20.04
+    env:
+      github_pat: ${{ secrets.GITHUB_TOKEN }}
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Setup R4
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Setup Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+        with:
+          pandoc-version: '2.17.1'
+
+      - name: Install Rmarkdown and Blogdown
+        run: R -e 'install.packages(c("rmarkdown","blogdown"))'
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.101.0'
+      
+      - name: Build site
+        run: R -e 'blogdown::build_site(local = FALSE, build_rmd = TRUE)'
+      
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          full_commit_message: ${{ github.event.head_commit.message }}

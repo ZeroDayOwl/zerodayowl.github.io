@@ -5,7 +5,6 @@
 .Rproj.user
 *.Rproj
 Thumbs.db
-index.html
 .DS_Store
 public/*
 !public/.gitkeep

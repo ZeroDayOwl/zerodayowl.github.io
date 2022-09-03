@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on ZeroDayOwl</title>
+        <link>https://zerodayowl.github.io/posts/</link>
+        <description>Recent content in Posts on ZeroDayOwl</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://zerodayowl.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Genesis</title>
+            <link>https://zerodayowl.github.io/posts/2022/09/genesis/</link>
+            <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+            
+            <guid>https://zerodayowl.github.io/posts/2022/09/genesis/</guid>
+            <description>As this is the first post on my blog, I was pondering whether to start with a post like this or go straight into writing about technical stuff, but then I realized that every program, even the most obscure one, started with it’s little Hello World at first, right? So why shouldn’t this get its fair share as well?
+Hiya everyone (including you and the crawlers that are currently crawling my page), you’ve probably looked through the other sections of my website already, particularly the /about section.</description>
+            <content type="html"><![CDATA[
+
+
+<p>As this is the first post on my blog, I was pondering whether to start with a post like this or go straight into writing about technical stuff, but then I realized that every program, even the most obscure one, started with it’s little <em>Hello World</em> at first, right? So why shouldn’t this get its fair share as well?</p>
+<p>Hiya everyone (including you and the crawlers that are currently crawling my page), you’ve probably looked through the other sections of my website already, particularly the <a href="/about">/about</a> section. If you haven’t already, allow me to reintroduce myself: I’m a high school student who finds interests in computers, CTFs, development, and, yes, retired machines too! 😛</p>
+<p>As I have said before, this is a blog is for keeping logs of the projects I do, my ideas and thoughts and well… my long list of side projects, which I owe an apology to for not completing, <em>yet</em>. So this might shift between being a journal, a logbook or a place where I simply rant about just anything. I’m not sure which one I’ll choose, but I’m sure I’ll have a place to put it all, in the end.</p>
+<p>I believe that we learn every moment, and every learning is worth sharing, for someone around the planet. So this is my little attempt to share what I am learning, for those of you out there who are likely interested in a myriad of things like me.</p>
+<p>Well I think it’s a good start, innit?</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,25 @@
+---
+title: Genesis
+author: ZeroDayOwl
+date: '2022-09-03'
+slug: genesis
+categories:
+  - Origin
+  - General
+tags:
+  - Genesis
+  - HelloWorld
+draft: no
+toc: no
+images: ~
+---
+
+As this is the first post on my blog, I was pondering whether to start with a post like this or go straight into writing about technical stuff, but then I realized that every program, even the most obscure one, started with it's little *Hello World* at first, right? So why shouldn't this get its fair share as well?
+
+Hiya everyone (including you and the crawlers that are currently crawling my page), you've probably looked through the other sections of my website already, particularly the [/about](/about) section. If you haven't already, allow me to reintroduce myself: I'm a high school student who finds interests in computers, CTFs, development, and, yes, retired machines too! :stuck_out_tongue:
+
+As I have said before, this is a blog is for keeping logs of the projects I do, my ideas and thoughts and well... my long list of side projects, which I owe an apology to for not completing, *yet*. So this might shift between being a journal, a logbook or a place where I simply rant about just anything. I'm not sure which one I'll choose, but I'm sure I'll have a place to put it all, in the end.
+
+I believe that we learn every moment, and every learning is worth sharing, for someone around the planet. So this is my little attempt to share what I am learning, for those of you out there who are likely interested in a myriad of things like me.
+
+Well I think it's a good start, innit?
